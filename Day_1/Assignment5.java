@@ -52,8 +52,11 @@ public class Assignment5 {
 		Account a=new Account(1234,50000,"pass@123");
 		a.displayAccount();
 		System.out.println("-------------------");
-		Account a1=new Account(4567,60000,"abc@123");
+		Account a1=new Account();
 		a1.displayAccount();
+		System.out.println("-------------------");
+		Account a2=new Account(4567,60000,"abc@123");
+		a2.displayAccount();
 	}
 
 }
